@@ -9,6 +9,19 @@ body {
   line-height: 1.5;
 }
 
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+}
+
+#navigation {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 h1,
 h2,
 h3,
