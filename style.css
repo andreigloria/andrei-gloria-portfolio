@@ -9,18 +9,20 @@ body {
   line-height: 1.5;
 }
 
-#navBar {
+.navBar {
     display: flex;
     flex-direction: row;
-    margin: 0px 5%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
 }
 
-#navigation {
-    display: flex;
-    width: 50%;
-    align-items: center;
-    justify-content: space-evenly;
+nav a {
+  text-decoration: none;
+  padding: 20px 40px;
+  
 }
+
 
 h1,
 h2,
