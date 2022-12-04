@@ -9,30 +9,12 @@ body {
   line-height: 1.5;
 }
 
-.header {
-    height: 100vh;
-    width: 100%;
-    background-image: url(./images2/selfie.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-    /*
+#navBar {
     display: flex;
     flex-direction: row;
-    margin: 0px 10%;
+    margin: 0px 5%;
 }
 
-
-
-
-
-/*
 #navigation {
     display: flex;
     width: 50%;
