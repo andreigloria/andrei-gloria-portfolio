@@ -15,12 +15,17 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 50px 10%;
+    background-color: rgb(178, 153, 119);
+}
+
+h1 {
+  color: white;
 }
 
 nav a {
   text-decoration: none;
   padding: 20px 40px;
-  
+  color: white;
 }
 
 
