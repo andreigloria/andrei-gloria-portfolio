@@ -28,6 +28,22 @@ nav a {
   color: white;
 }
 
+.banner {
+  height: 400px;
+  width: auto;
+  background-image: url(./images2/selfie.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h2 {
+  background-color: rgba(255, 255, 255, 0.671);
+  position: absolute;
+  right: 250px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
 
 h1,
 h2,
