@@ -63,6 +63,63 @@ nav a {
   border-right: 5px solid tan;
 }
 
+#workNest {
+  padding-left: 30px;
+  display: grid;
+  grid-template-rows: 300px 300px 300px 300px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "workOne workOne"
+  "workOne workOne"
+  "workTwo workThree"
+  "workFour workFive" 
+  ;
+}
+
+#workOne {
+  grid-area: workOne;
+  background-image: url(./images2/work1.jpg);
+}
+
+#workTwo {
+  grid-area: workTwo;
+  background-image: url(./images2/work2.jpg);
+}
+
+#workThree {
+  grid-area: workThree;
+  background-image: url(./images2/work3.jpg);
+}
+
+#workFour {
+  grid-area: workFour;
+  background-image: url(./images2/work4.jpg);
+}
+
+#workFive {
+  grid-area: workFive;
+  background-image: url(./images2/work5.jpg);
+}
+
+.workNestArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  display: grid;
+  align-content: end;
+}
+
+.heading {
+  background-color: rgba(210, 180, 140, 0.7);
+  top: 50px;
+  padding: 25px;
+  max-width: 120px;
+  color: white;
+  font-size: large;
+}
+
+
 h1,
 h2,
 h3,
