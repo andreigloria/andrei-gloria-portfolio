@@ -1,6 +1,6 @@
 # My Portfolio
 
-## Descriptiom
+## Description
 
 The focus of this project is to create my own portfolio for my web development work. The aim is to show off my current skills to future employers where they will have access to review and consider work I have created. This also enables me to continuously apply and showcase new skills through modifying my portfolio. 
 
