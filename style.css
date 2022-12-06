@@ -45,6 +45,24 @@ nav a {
   flex-direction: column;
 }
 
+.page-wrapper {
+  margin: 31px;
+}
+
+.page-section {
+  display: grid;
+  margin: 5%;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 1fr;
+}
+
+.page-section h2 {
+  justify-self: flex-end;
+  font-size: xx-large;
+  padding-right: 30px;
+  border-right: 5px solid tan;
+}
+
 h1,
 h2,
 h3,
@@ -55,5 +73,5 @@ h6 {
 }
 
 p {
-  margin: 0;
+  padding-left: 30px;
 }
